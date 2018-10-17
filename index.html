@@ -1,10 +1,33 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>cooking with max</title>
-  </head>
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.3.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Cooking</title>
   <body>
-    <h1>Cooking with maxwell<h1>
-    <script src="js/scripts.js"></script>
+    <div class="container">
+      <h1>Cooking Conversions</h1>
+
+      <form id="formOne">
+        <div class="form-group">
+          <label for="gallons">Gallons to Liters</label>
+          <input id="gallons" class="form-control" type="number">
+        </div>
+        <button type="submit" class="btn btn-info">Submit</button>
+      </form>
+      <h1 id="output"></h1>
+
+      <form id="formTwo">
+        <div class="form-group">
+          <label for="ounce">Ounce to Pounds</label>
+          <input id="ounce" class="form-control" type="number">
+        </div>
+        <button type="submit" class="btn btn-info">Submit</button>
+      </form>
+      <h1 id="output2"></h1>
+    </div>
   </body>
-</html>
+
+  </html>
